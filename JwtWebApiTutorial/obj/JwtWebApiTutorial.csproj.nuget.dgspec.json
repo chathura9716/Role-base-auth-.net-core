@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\chathura 2023.06.15\\mytesing applications\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj": {}
+    "D:\\C#\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj": {}
   },
   "projects": {
-    "D:\\chathura 2023.06.15\\mytesing applications\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj": {
+    "D:\\C#\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\chathura 2023.06.15\\mytesing applications\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj",
+        "projectUniqueName": "D:\\C#\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj",
         "projectName": "JwtWebApiTutorial",
-        "projectPath": "D:\\chathura 2023.06.15\\mytesing applications\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj",
-        "packagesPath": "C:\\Users\\chathura\\.nuget\\packages\\",
-        "outputPath": "D:\\chathura 2023.06.15\\mytesing applications\\JwtWebApiTutorial\\JwtWebApiTutorial\\obj\\",
+        "projectPath": "D:\\C#\\JwtWebApiTutorial\\JwtWebApiTutorial\\JwtWebApiTutorial.csproj",
+        "packagesPath": "C:\\Users\\lakma\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\JwtWebApiTutorial\\JwtWebApiTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chathura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lakma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +45,14 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.31.0, )"
@@ -52,6 +60,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.6, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -77,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
